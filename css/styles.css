@@ -15,15 +15,16 @@ ul a {
 header {
     color: white;
     background-image: url("../img/lemon-pie.png");
-    background-repeat:no-repeat;
-    background-position: center;
+    filter:brightness(98%);
+    background-repeat: no-repeat;
+    background-position: left bottom;
     background-attachment: scroll;
-    background-size: cover;      
+    background-size: 1300px, 900px;      
 }
 
-ol li a {
+span{
     color: orange;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 h1{
@@ -31,7 +32,7 @@ h1{
 }
 
 
-h3 {
+.italic {
     font-style:italic;
 }
 
